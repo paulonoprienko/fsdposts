@@ -1,0 +1,5 @@
+.progressWrap {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}

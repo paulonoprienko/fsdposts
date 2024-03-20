@@ -1,0 +1,23 @@
+.row {
+  box-sizing: border-box;
+  height: 40px;
+  padding: 5px 10px;
+  line-height: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background: #eff4ff;
+  box-shadow: 0 0 5px 0 rgba(0, 83, 116, 0.356);
+}
+
+.itemDesc {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-right: 10px;
+
+  b {
+    font-size: 1.02em;
+    color: #092a4b;
+  }
+}

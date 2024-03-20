@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: var(--layout-container-padding);
+  margin: auto;
+  width: var(--layout-container-width);
+  max-width: var(--layout-container-max-width);
+  flex: 1 0 auto;
+}

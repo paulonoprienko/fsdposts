@@ -1,0 +1,29 @@
+.container {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.viewport {
+  will-change: transform;
+  position: relative;
+  padding: var(--layout-container-padding);
+  width: var(--layout-container-width);
+  max-width: var(--layout-container-max-width);
+  overflow: visible;
+  margin: auto;
+  box-sizing: border-box;
+  flex: 1 0 auto;
+
+  .visibleContainer > * {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.visibleContainer {
+  will-change: transform;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
